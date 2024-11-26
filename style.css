@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    text-align: center;
+}
+.container{
+    display:grid;
+    background-color: blanchedalmond;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 500px;
+}
+.turn-text{
+    border: 10px solid black;
+    width:40%;
+    height:70px;
+}
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-size: 50px;
+    border:5px solid black;
+}
+.main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 500px;
+    justify-self: center;
+}
+.box:hover{
+    background-color:cadetblue;
+}
+.box:active{
+    background-color: aliceblue ;
+}
